@@ -4,4 +4,4 @@ hour = sec // 3600
 sec = sec % 3600
 minutes = sec // 60
 sec = sec % 60
-print('{}:''{}:''{}'.format(hour, minutes, sec))
+print('{} ч : ''{} м : ''{} с'.format(hour, minutes, sec))
