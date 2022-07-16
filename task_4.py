@@ -5,4 +5,4 @@ while num > 0:
     if last > maximum:
         maximum = last
     num = num // 10
-print(f'Наибольшее число: {maximum}')
+print(f'Наибольшая цифра: {maximum}')
